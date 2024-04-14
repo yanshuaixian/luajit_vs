@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{ff999745-837d-4f87-861e-12fc1232bab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\host">
+      <UniqueIdentifier>{e0c7303d-c1f7-4cc4-a928-902228c7480d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dynasm">
+      <UniqueIdentifier>{2b3c9d03-798a-4bff-963a-4cfe22b20023}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\luajit\src\host\buildvm.c">
+      <Filter>src\host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\luajit\src\host\buildvm_asm.c">
+      <Filter>src\host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\luajit\src\host\buildvm_lib.c">
+      <Filter>src\host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\luajit\src\host\buildvm_peobj.c">
+      <Filter>src\host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\luajit\src\host\buildvm_fold.c">
+      <Filter>src\host</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\luajit\src\host\buildvm.h">
+      <Filter>src\host</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luajit\dynasm\dasm_arm.h">
+      <Filter>dynasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luajit\dynasm\dasm_arm64.h">
+      <Filter>dynasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luajit\dynasm\dasm_mips.h">
+      <Filter>dynasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luajit\dynasm\dasm_ppc.h">
+      <Filter>dynasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luajit\dynasm\dasm_proto.h">
+      <Filter>dynasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luajit\dynasm\dasm_x86.h">
+      <Filter>dynasm</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

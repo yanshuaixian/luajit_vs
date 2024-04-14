@@ -1,0 +1,9 @@
+/.vs
+/tmp
+/bin
+/lua_obj
+/minilua/minilua.vcxproj.user
+/luajit_exe/luajit_exe.vcxproj.user
+/lua_lib/lua_lib.vcxproj.user
+/lua_dll/lua_dll.vcxproj.user
+/build_vm/build_vm.vcxproj.user
