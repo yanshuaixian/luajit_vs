@@ -21,7 +21,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\luajit\src\host\minilua.c">
+    <ClCompile Include="..\luajit\src\host\minilua.c">
       <Filter>src\host</Filter>
     </ClCompile>
   </ItemGroup>
